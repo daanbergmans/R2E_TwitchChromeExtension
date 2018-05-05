@@ -10,7 +10,8 @@ Chrome extension (bundled with the custom RESTful API) for translating Russian (
 1. Make sure you have Git and NodeJs installed. (https://git-scm.com/ and https://nodejs.org/en/)
 2. Clone this repository
 3. Run 'npm install' in the 'RuskiiiToEngliskiii_API'-folder.
-4. You're good to go!
+4. Run 'npm run start'
+5. You're good to go!
 
 # Sources
 - Used translation library: https://github.com/matheuss/google-translate-api
