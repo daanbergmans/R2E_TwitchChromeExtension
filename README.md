@@ -1,5 +1,5 @@
 # R2E_TwitchChromeExtension
-Chrome extension (bundled with the custom RESTful API) for translating Russian (but any other language works as well) into English!
+Chrome extension (bundled with the custom RESTful API) for translating Russian (but any other language works as well) into English in Twitch chat!
 
 # Usability
 - The extension is NOT available on the chrome store (yet :thinking: )
