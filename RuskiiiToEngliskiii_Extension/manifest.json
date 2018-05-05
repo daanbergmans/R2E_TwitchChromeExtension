@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+
+  "name": "RuskiiiToEngliskiii",
+  "short_name": "R2E",
+  "description": "Translates Russian to English in Twitch chat!",
+  "version": "0.01",
+  "page_action": {
+    "default_title": "ruskiii_to_engliskiii"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": [
+        "libraries/jquery-3.1.1.min.js",
+        "js/addIcon.js",
+        "js/translation.js"
+      ],
+      "exclude_globs": ["https://www.twitch.tv/directory/*",
+        "https://www.twitch.tv/p/*",
+        "https://www.twitch.tv/products/*",
+        "https://www.twitch.tv/*/manager*",
+        "https://www.twitch.tv/*/dashboard",
+        "https://www.twitch.tv/broadcast",
+        "https://www.twitch.tv/messages/*",
+        "https://www.twitch.tv/settings"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    "assets/icon.svg"
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
