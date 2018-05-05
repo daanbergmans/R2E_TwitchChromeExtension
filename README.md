@@ -17,6 +17,15 @@ Chrome extension (bundled with the custom RESTful API) for translating Russian (
 - Used translation library: https://github.com/matheuss/google-translate-api
 - Source of the idea: The lovely chat @ https://www.twitch.tv/anaesthetlc
 
+# To do
+- Add functionality and ui to switch between Russian <-> English and English <-> Russian
+- Add filters for:
+	- Default Twitch emotes
+	- BetterTTV emotes
+	- FrankerFacez emotes
+- Set up AWS for API hosting (until Raspberry Pi is obtained)
+- Finish and check extension for Store publish
+
 # Known issues
 - Currently not working for messages which include BetterTTV (and probably FrankerFacez as well)
 
