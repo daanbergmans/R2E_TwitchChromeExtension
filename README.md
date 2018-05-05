@@ -17,3 +17,6 @@ Chrome extension (bundled with the custom RESTful API) for translating Russian (
 - Used translation library: https://github.com/matheuss/google-translate-api
 - Source of the idea: The lovely chat @ https://www.twitch.tv/anaesthetlc
 
+# Known issues
+- Currently not working for messages which include BetterTTV (and probably FrankerFacez as well)
+
